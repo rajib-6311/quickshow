@@ -19,7 +19,7 @@ const MoveCard = ({ movie }) => {
                     Buy Tickets</button>
                 <p className="flex items-center gap-2 text-sm text-gray-400 mt-1 pr-1">
                     <StarIcon className="w-4 h-4 text-primary fill-primary" />
-                    {movie.vote_average.toFixed(1)}
+                    {movie.vote_average.toFixed(1)}     
                 </p>
             </div>
         </div>

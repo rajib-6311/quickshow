@@ -16,9 +16,9 @@ const FeatureSection  = () => {
                 <button className="flex items-center gap-3 cursor-pointer" onClick={()=>navigate('/movies')}>View All <ArrowRight className="group-hover:translate-x-0.5 transition w-4.5 h-4.5 cursor-pointer"/>
                 </button>
             </div>
-            <div className="flex mx-sm:justify-center gap-3 mt-8">
+            <div className="flex  mx-sm:justify-center gap-3 mt-8">
                 {
-                    dummyShowsData.slice(0,4).map((show)=>(
+                    dummyShowsData.slice(0,6).map((show)=>(
                         <MoveCard key={show._id} movie={show}/>
                     ))
                 }
