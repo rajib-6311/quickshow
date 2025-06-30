@@ -1,5 +1,6 @@
 import FeatureSection from "../Components/FeatureSection ";
 import HeroSection from "../Components/HeroSection";
+import TrailersSection from "../Components/TrailersSection";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <>
          <HeroSection/>
          <FeatureSection/>
+         <TrailersSection/>
         </>
     );
 };
